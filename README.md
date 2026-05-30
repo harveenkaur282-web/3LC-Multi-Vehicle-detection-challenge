@@ -1,2 +1,1 @@
 # 3LC-Multi-Vehicle-detection-challenge
-3LC, data-centric kaggle competition for object detection, using 3LC Tables, Revisions, Runs, Dashboard to find &amp; fix label errors in bounding-box datasets, mAP@0.5 connects localization &amp; classification &amp; why better labels move it more than hyperparameter tuning. build pipelines that scale from experimentation to production under real constraints.
