@@ -26,10 +26,10 @@ training:
   run_name: yolov8n_baseline
   run_description: Baseline YOLOv8n (train/val from 3LC tables)
   epochs: 5 # epochs is the number of epochs to train for
-  batch_size: 8 # batch size is the number of images processed in parallel
+  batch_size: 16 # batch size is the number of images processed in parallel
   image_size: 640 # image size is the size of the image to be processed
-  device: cpu # device is the device to be used for training
-  workers: 0 # workers is the number of workers to be used for training
+  device: 0 # device is the device to be used for training
+  workers: 2 # workers is the number of workers to be used for training
   lr0: 0.01 # lr0 is the initial learning rate
   patience: 20 # patience is the number of epochs to wait for the validation loss to improve before stopping training
   use_augmentation: true
