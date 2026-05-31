@@ -52,7 +52,7 @@ reproducibility:
 
 predict:
   # null = auto-resolve runs/detect/{training.run_name}/weights/best.pt, else newest best.pt
-  weights: null
+  weights: runs/detect/yolov8n_baseline/weights/best.pt
   conf: 0.25 # conf is the confidence threshold for the detection
   iou: 0.7 # iou is the intersection over union threshold for the detection
   imgsz: null # imgsz is the size of the image to be processed
