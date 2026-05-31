@@ -10,14 +10,14 @@ Set predict.pipeline: txt in config if you prefer the cotton-style label export.
 """
 
 from __future__ import annotations
-ROOT_DIR = Path(__file__).resolve().parent.parent
+
 import csv
 import gc
 import os
 import shutil
 import sys
 from pathlib import Path
-
+ROOT_DIR = Path(__file__).resolve().parent.parent
 import numpy as np
 import torch
 from tlc_ultralytics import YOLO
