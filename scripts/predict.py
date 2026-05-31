@@ -138,7 +138,7 @@ def _load_config() -> dict:
 
 def _resolve(path_str: str) -> Path:
     p = Path(path_str)
-    return p if p.is_absolute() else (WORK_DIR / p).resolve()
+    return p if p.is_absolute() else ROOT_DIR / p
 
 
 def _resolve_weights(cfg: dict) -> Path:
